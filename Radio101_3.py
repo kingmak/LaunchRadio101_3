@@ -30,4 +30,10 @@ os.system('TASKKILL /F /IM python.exe')
 '''
 if you turn it into an exe via py2exe then use:
 os.system('TASKKILL /F /IM NAME_OF_UR_EXE.exe')
+
+windows media player can also be used, but for now code only for VLC, you can change if you want
+
+location: "C:\Program Files (x86)\Windows Media Player"
+exeName = wmplayer.exe
+launchCommand = 'wmplayer.exe "' + radioLink +'"'
 '''
