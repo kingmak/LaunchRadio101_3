@@ -1,4 +1,9 @@
 LaunchRadio101_3
 ================
 
-Gets the url of radio station 101_3 and launches it in vlc
+Pre requisites:
+- Win 7
+- VLC Media Player
+
+- Gets the url from the iheart site
+- Launches it in VLC
