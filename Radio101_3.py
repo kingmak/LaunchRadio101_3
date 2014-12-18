@@ -28,6 +28,6 @@ thread.start()
 os.system('TASKKILL /F /IM python.exe')
 
 '''
-if you turn it into py2exe then u can do what i did:
-os.system('TASKKILL /F /IM 101_3.exe')
+if you turn it into an exe via py2exe then use:
+os.system('TASKKILL /F /IM NAME_OF_UR_EXE.exe')
 '''
