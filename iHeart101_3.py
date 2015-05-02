@@ -1,4 +1,5 @@
 import os, re, sys, urllib2, platform, subprocess, threading
+# can also use sys.platform()
 
 try:
     regex = r'(?<=shoutcast_stream":").[^"]*'
