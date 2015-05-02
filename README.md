@@ -1,10 +1,8 @@
 LaunchRadio101_3
 ================
 
-Pre requisites:
-- Win 7
-- VLC Media Player
+- Friendly with Linux and Windows
 
 What it does:
 - Gets the url from the iheart site
-- Launches it in VLC
+- If Linux then displays url. If windows (and windows has vlc) then launches vlc with the link.
