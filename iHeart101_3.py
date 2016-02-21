@@ -8,14 +8,13 @@ try:
     radioLink = re.search(regex, data).group()
 
 except Exception, linkError:
-    print str(linkError)
-    sys.exit('')
+    sys.exit(linkError)
 
-os = platform.system()
-if (os == 'Linux'):
+osp = platform.system()
+if (osp == 'Linux'):
     sys.exit(radioLink)
 
-elif (os == 'Windows'):
+elif (osp == 'Windows'):
 
     try:
         os.chdir('C:\Program Files (x86)\VideoLAN\VLC')
@@ -24,7 +23,7 @@ elif (os == 'Windows'):
         sys.exit(radioLink)
 
     try:
-        # complicated bad code, i coud find no other way
+        # complicated bad code, i could not find any other way
         def callVLC():
             subprocess.call(["vlc", "-vvv", radioLink])
 
